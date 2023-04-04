@@ -53,7 +53,7 @@ namespace DesignPatterns.Exercices
 
         public void dessine()
         {
-            outilPdf.pdfPrépareAffichage();
+            outilPdf.pdfPrepareAffichage();
             outilPdf.pdfRafraichi();
             outilPdf.pdfTermineAffichage();
         }
@@ -71,7 +71,7 @@ namespace DesignPatterns.Exercices
             Console.WriteLine("pdfFixeContenu" +" "+ contenu);
         }
 
-        public void pdfPrépareAffichage()
+        public void pdfPrepareAffichage()
         {
             Console.WriteLine("pdfPrépareAffichage");
         }

@@ -1,0 +1,15 @@
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DesignPatterns.exe
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DesignPatterns.deps.json
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DesignPatterns.runtimeconfig.json
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DesignPatterns.dll
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DesignPatterns.pdb
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.AssemblyInfo.cs
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.dll
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\refint\DesignPatterns.dll
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.pdb
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.genruntimeconfig.cache
+C:\Users\stagiaire\source_code_C#\repos\Design_Patterns\DesignPatterns\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll

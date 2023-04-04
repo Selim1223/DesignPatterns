@@ -8,5 +8,6 @@ namespace DesignPatterns.Exercices
 {
     internal class Bridge
     {
+
     }
 }
