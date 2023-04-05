@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using DesignPatterns.Exercices;
 
 namespace DesignPatterns
@@ -79,6 +80,11 @@ namespace DesignPatterns
             //Console.WriteLine("Autre clique sur le modèle");
             //animation.Clique();
 
+            /// Pattern Facade
+            Console.WriteLine("affichage du prix de la voiture Peugot 208");
+            WebServiceAuto facade = new WebServiceAuto();
+            facade.showCarPrice();
+          
             //// Pattern Observer
             //Vehicule vehicule = new Vehicule();
             //VueVehiculeObservateur vueVehiculeObservateur = new VueVehiculeObservateur(vehicule);
@@ -139,6 +145,32 @@ namespace DesignPatterns
             //commande2.setMontantHt(12);
             //commande2.calculeMontantTtc();
             //commande2.affiche();
+
+            /// Pattern ChainOfResponsability
+            //Console.WriteLine("Affichage de toutes les infos");
+            //ObjetBase objetBase = new VehiculeChainOfRes("Peugot 2008 avec climatisation",
+            //    new ModeleChainOfRes("Peugot 2008",
+            //        new MarqueChainOfRes("Peugot")
+            //    )
+            // );
+            //Console.WriteLine(objetBase.DonneDescription());
+
+            //Console.WriteLine("Affichage de la marque et du modèle");
+            //objetBase = new VehiculeChainOfRes(null,
+            //    new ModeleChainOfRes("Peugot 2008",
+            //        new MarqueChainOfRes("Peugot")
+            //    )
+            // );
+            //Console.WriteLine(objetBase.DonneDescription());
+            //Console.WriteLine("Affichage de la marque seulement");
+            //objetBase = new VehiculeChainOfRes(null,
+            //    new ModeleChainOfRes(null,
+            //        new MarqueChainOfRes("Peugot")
+            //    )
+            // );
+            //Console.WriteLine(objetBase.DonneDescription());
+
+
         }
     }
 }
