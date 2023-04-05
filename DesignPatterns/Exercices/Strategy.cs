@@ -8,12 +8,12 @@ namespace DesignPatterns.Exercices
 {
     public interface DessinCatalogue
     {
-        public void dessine();
+        public abstract void Dessine();
     }
 
     public class DessinUnVehiculeLigne : DessinCatalogue 
     {
-        public void dessine()
+        public void Dessine()
         {
             Console.WriteLine("****");
         }
@@ -21,23 +21,23 @@ namespace DesignPatterns.Exercices
 
     public class DessinTroisVehiculesLigne : DessinCatalogue
     {
-        public void dessine()
+        public void Dessine()
         {
             Console.WriteLine("/////");
         }
     }
-    class Dessin
+    public class VueCatalogue
     {
-        private readonly DessinCatalogue mDessin;
+        private readonly DessinCatalogue dessin;
 
-        public Dessin(DessinCatalogue dessin)
+        public VueCatalogue(DessinCatalogue dessin)
         {
-            mDessin = dessin;
+            this.dessin = dessin;
         }
 
         public void Dessine()
         {
-            mDessin.dessine();
+            dessin.Dessine();
         }
     }
 }

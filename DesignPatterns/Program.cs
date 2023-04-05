@@ -24,8 +24,11 @@ namespace DesignPatterns
             //}
 
             //// Pattern Strategy
-            //var dessin = new Dessin(new DessinUnVehiculeLigne());
-            //dessin = new Dessin(new DessinTroisVehiculesLigne());
+            //VueCatalogue dessin;
+            //dessin = new VueCatalogue(new DessinUnVehiculeLigne());
+            //dessin.Dessine();
+            //dessin = new VueCatalogue(new DessinTroisVehiculesLigne());
+            //dessin.Dessine();
 
 
             //// Pattern Adapter
@@ -89,7 +92,41 @@ namespace DesignPatterns
             //vehicule.setDescription("Belle voiture");
 
             /// Pattern Bridge
+            //Console.WriteLine("Creation d'un Formulaire d'immatriculation francais avec HTML");
+            //FormulaireImmatriculation form = new FormImmatriculationFrance(new FormHtmlImpl());
+            //Console.WriteLine("Valeurs saisies : selim france");
+            //form.UtilisateurInfos("Selim","france");
+            //form.Affiche();
+            //Console.WriteLine(form.GenereDocument());
 
+            //Console.WriteLine("Creation d'un Formulaire d'immatriculation luxembourgois avec Apple");
+            //form = new FormImmatriculationLuxembourg(new FormAppleImpl());
+            //Console.WriteLine("Valeurs saisies : selim luxembourg");
+            //form.UtilisateurInfos("Selim", "luxembourg");
+            //form.Affiche();
+            //Console.WriteLine(form.GenereDocument());
+
+            //Console.WriteLine("Creation d'un Formulaire d'immatriculation luxembourgois avec HTML pour un utlisateur français : affichage de l'erreur");
+            //form = new FormImmatriculationLuxembourg(new FormHtmlImpl());
+            //Console.WriteLine("Valeurs saisies : selim france");
+            //form.UtilisateurInfos("Selim","france");
+            //form.Affiche();
+            //Console.WriteLine(form.GenereDocument());
+
+            /// Pattern Flyweight
+            //FabriqueOption fabrique = new FabriqueOption();
+            //Console.WriteLine("la première voiture coute 3000 euros");
+            //VehiculeCommande car1 = new VehiculeCommande(3000);
+            //Console.WriteLine("la deuxième voiture coute 6000 euros");
+            //VehiculeCommande car2 = new VehiculeCommande(6000);
+            //Console.WriteLine("ajout d'une radio dans le véhicule 1");
+            //car1.AddOption("radio", 130, fabrique);
+            //Console.WriteLine("ajout d'un pare brise dans le véhicule 2");
+            //car2.AddOption("pare brise", 200, fabrique);
+            //Console.WriteLine("affichage des infos du véhicule 1");
+            //car1.AfficheOption();
+            //Console.WriteLine("affichage des infos du véhicule 2");
+            //car2.AfficheOption();
 
             /// Pattern TemplateMethod
             //var commande = new CommandeFrance();
