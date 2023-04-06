@@ -58,13 +58,17 @@ namespace DesignPatterns.Exercices
         public void showCarPrice()
         {
             List<string> cars = new Catalogue().getCarNames();
-            Console.WriteLine("Ecrivez la marque et le modèle du véhicule : ");
-            string name = Console.ReadLine();
-            if (!cars.Contains(name))
+            string name;
+            do
             {
-                Console.WriteLine("La voiture " + name + " n'est pas disponible");
-                return;
-            }
+                Console.WriteLine("Ecrivez la marque et le modèle du véhicule : ");
+                name = Console.ReadLine();
+                if (!cars.Contains(name))
+                {
+                    Console.WriteLine("La voiture " + name + " n'est pas disponible");
+                }
+            } while (!cars.Contains(name));
+
             int price = new RepriseVehicule().GenerateRandomPrice();
             string view = new GestionDocument().display(name, price);
             Console.WriteLine(view);

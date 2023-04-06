@@ -81,7 +81,6 @@ namespace DesignPatterns
             //animation.Clique();
 
             /// Pattern Facade
-            Console.WriteLine("affichage du prix de la voiture Peugot 208");
             WebServiceAuto facade = new WebServiceAuto();
             facade.showCarPrice();
           
